@@ -1,0 +1,436 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Vagrant-10"
+Date "2020-02-17"
+Rev "v0.1"
+Comp "Sho-Keebs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U1
+U 1 1 5E4A8E00
+P 3250 4750
+F 0 "U1" H 3250 5787 60  0000 C CNN
+F 1 "ProMicro" H 3250 5681 60  0000 C CNN
+F 2 "promicro:ProMicro" H 3350 3700 60  0001 C CNN
+F 3 "" H 3350 3700 60  0000 C CNN
+	1    3250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5E4AF9FE
+P 6800 4000
+F 0 "K3" H 6800 4233 60  0000 C CNN
+F 1 "KEYSW" H 6800 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6800 4000 60  0001 C CNN
+F 3 "" H 6800 4000 60  0000 C CNN
+	1    6800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5E4AFA04
+P 7800 4000
+F 0 "K6" H 7800 4233 60  0000 C CNN
+F 1 "KEYSW" H 7800 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7800 4000 60  0001 C CNN
+F 3 "" H 7800 4000 60  0000 C CNN
+	1    7800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K9
+U 1 1 5E4AFA0A
+P 8800 4000
+F 0 "K9" H 8800 4233 60  0000 C CNN
+F 1 "KEYSW" H 8800 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8800 4000 60  0001 C CNN
+F 3 "" H 8800 4000 60  0000 C CNN
+	1    8800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5E4B0858
+P 6800 5000
+F 0 "K4" H 6800 5233 60  0000 C CNN
+F 1 "KEYSW" H 6800 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6800 5000 60  0001 C CNN
+F 3 "" H 6800 5000 60  0000 C CNN
+	1    6800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K7
+U 1 1 5E4B085E
+P 7800 5000
+F 0 "K7" H 7800 5233 60  0000 C CNN
+F 1 "KEYSW" H 7800 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7800 5000 60  0001 C CNN
+F 3 "" H 7800 5000 60  0000 C CNN
+	1    7800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K10
+U 1 1 5E4B0864
+P 8800 5000
+F 0 "K10" H 8800 5233 60  0000 C CNN
+F 1 "KEYSW" H 8800 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8800 5000 60  0001 C CNN
+F 3 "" H 8800 5000 60  0000 C CNN
+	1    8800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5E4B84F0
+P 8500 3250
+F 0 "D8" V 8546 3171 50  0000 R CNN
+F 1 "D" V 8455 3171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8500 3250 50  0001 C CNN
+F 3 "~" H 8500 3250 50  0001 C CNN
+	1    8500 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5E4B99AE
+P 7500 3250
+F 0 "D5" V 7546 3171 50  0000 R CNN
+F 1 "D" V 7455 3171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7500 3250 50  0001 C CNN
+F 3 "~" H 7500 3250 50  0001 C CNN
+	1    7500 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5E4B9F46
+P 6500 3250
+F 0 "D2" V 6546 3171 50  0000 R CNN
+F 1 "D" V 6455 3171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6500 3250 50  0001 C CNN
+F 3 "~" H 6500 3250 50  0001 C CNN
+	1    6500 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5E4BA2F4
+P 6500 4250
+F 0 "D3" V 6546 4171 50  0000 R CNN
+F 1 "D" V 6455 4171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6500 4250 50  0001 C CNN
+F 3 "~" H 6500 4250 50  0001 C CNN
+	1    6500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5E4BA689
+P 7500 4250
+F 0 "D6" V 7546 4171 50  0000 R CNN
+F 1 "D" V 7455 4171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7500 4250 50  0001 C CNN
+F 3 "~" H 7500 4250 50  0001 C CNN
+	1    7500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5E4BAA4B
+P 8500 4250
+F 0 "D9" V 8546 4171 50  0000 R CNN
+F 1 "D" V 8455 4171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8500 4250 50  0001 C CNN
+F 3 "~" H 8500 4250 50  0001 C CNN
+	1    8500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5E4BAE7B
+P 6500 5250
+F 0 "D4" V 6546 5171 50  0000 R CNN
+F 1 "D" V 6455 5171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6500 5250 50  0001 C CNN
+F 3 "~" H 6500 5250 50  0001 C CNN
+	1    6500 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5E4BB2A1
+P 7500 5250
+F 0 "D7" V 7546 5171 50  0000 R CNN
+F 1 "D" V 7455 5171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7500 5250 50  0001 C CNN
+F 3 "~" H 7500 5250 50  0001 C CNN
+	1    7500 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5E4BB6B3
+P 8500 5250
+F 0 "D10" V 8546 5171 50  0000 R CNN
+F 1 "D" V 8455 5171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8500 5250 50  0001 C CNN
+F 3 "~" H 8500 5250 50  0001 C CNN
+	1    8500 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 2000 8500 2100
+Wire Wire Line
+	8500 3000 8500 3100
+Wire Wire Line
+	7500 3000 7500 3100
+Wire Wire Line
+	6500 3000 6500 3100
+Wire Wire Line
+	7500 3400 7500 3500
+Wire Wire Line
+	7500 3500 6500 3500
+Wire Wire Line
+	6500 3500 6500 3400
+Wire Wire Line
+	8500 3400 8500 3500
+Wire Wire Line
+	8500 3500 7500 3500
+Connection ~ 7500 3500
+Wire Wire Line
+	6000 3500 6500 3500
+Connection ~ 6500 3500
+Wire Wire Line
+	8500 4400 8500 4500
+Wire Wire Line
+	8500 4500 7500 4500
+Wire Wire Line
+	6500 4500 6500 4400
+Wire Wire Line
+	6000 4500 6500 4500
+Connection ~ 6500 4500
+Wire Wire Line
+	7500 4400 7500 4500
+Connection ~ 7500 4500
+Wire Wire Line
+	7500 4500 6500 4500
+Wire Wire Line
+	7500 4000 7500 4100
+Wire Wire Line
+	8500 4100 8500 4000
+Wire Wire Line
+	6500 4000 6500 4100
+Wire Wire Line
+	6500 5000 6500 5100
+Wire Wire Line
+	7500 5100 7500 5000
+Wire Wire Line
+	8500 5000 8500 5100
+Wire Wire Line
+	8500 5400 8500 5500
+Wire Wire Line
+	8500 5500 7500 5500
+Wire Wire Line
+	6500 5500 6500 5400
+Wire Wire Line
+	6000 5500 6500 5500
+Connection ~ 6500 5500
+Connection ~ 7500 5500
+Wire Wire Line
+	7500 5500 6500 5500
+Wire Wire Line
+	7500 5400 7500 5500
+Wire Wire Line
+	7100 5000 7100 4000
+Wire Wire Line
+	7100 4000 7100 3000
+Connection ~ 7100 4000
+Connection ~ 7100 3000
+Wire Wire Line
+	7100 1500 7100 3000
+Wire Wire Line
+	8100 1500 8100 3000
+Wire Wire Line
+	8100 3000 8100 4000
+Connection ~ 8100 3000
+Wire Wire Line
+	8100 5000 8100 4000
+Connection ~ 8100 4000
+Wire Wire Line
+	9100 5000 9100 4000
+Wire Wire Line
+	9100 3000 9100 4000
+Connection ~ 9100 4000
+Wire Wire Line
+	9100 2000 9100 3000
+Connection ~ 9100 3000
+Wire Wire Line
+	9100 2000 9100 1500
+Connection ~ 9100 2000
+Wire Wire Line
+	8500 2400 8500 2500
+Wire Wire Line
+	8500 2500 6000 2500
+Text GLabel 6000 2500 0    50   Input ~ 0
+R0
+Text GLabel 6000 3500 0    50   Input ~ 0
+R1
+Text GLabel 6000 4500 0    50   Input ~ 0
+R2
+Text GLabel 6000 5500 0    50   Input ~ 0
+R3
+Text GLabel 7100 1500 1    50   Input ~ 0
+C0
+Text GLabel 8100 1500 1    50   Input ~ 0
+C1
+Text GLabel 9100 1500 1    50   Input ~ 0
+C2
+Text GLabel 3950 4800 2    50   Input ~ 0
+R1
+Text GLabel 3950 4900 2    50   Input ~ 0
+R2
+Text GLabel 3950 5000 2    50   Input ~ 0
+R3
+Text GLabel 3950 4700 2    50   Input ~ 0
+R0
+Text GLabel 3950 4400 2    50   Input ~ 0
+C0
+Text GLabel 3950 4600 2    50   Input ~ 0
+C1
+Text GLabel 3950 4500 2    50   Input ~ 0
+C2
+NoConn ~ 3950 5100
+NoConn ~ 2550 5100
+NoConn ~ 2550 5000
+NoConn ~ 2550 4500
+NoConn ~ 2550 4400
+NoConn ~ 2550 4100
+NoConn ~ 2550 4000
+$Comp
+L Device:D D1
+U 1 1 5E4B7A5E
+P 8500 2250
+F 0 "D1" V 8546 2171 50  0000 R CNN
+F 1 "D" V 8455 2171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8500 2250 50  0001 C CNN
+F 3 "~" H 8500 2250 50  0001 C CNN
+	1    8500 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5E4B0A0A
+P 8800 2000
+F 0 "K1" H 8800 2233 60  0000 C CNN
+F 1 "KEYSW" H 8800 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 8800 2000 60  0001 C CNN
+F 3 "" H 8800 2000 60  0000 C CNN
+	1    8800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5E4ABC16
+P 6800 3000
+F 0 "K2" H 6800 3233 60  0000 C CNN
+F 1 "KEYSW" H 6800 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6800 3000 60  0001 C CNN
+F 3 "" H 6800 3000 60  0000 C CNN
+	1    6800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5E4ACF5A
+P 7800 3000
+F 0 "K5" H 7800 3233 60  0000 C CNN
+F 1 "KEYSW" H 7800 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7800 3000 60  0001 C CNN
+F 3 "" H 7800 3000 60  0000 C CNN
+	1    7800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K8
+U 1 1 5E4AD593
+P 8800 3000
+F 0 "K8" H 8800 3233 60  0000 C CNN
+F 1 "KEYSW" H 8800 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8800 3000 60  0001 C CNN
+F 3 "" H 8800 3000 60  0000 C CNN
+	1    8800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW1
+U 1 1 5E4E24A1
+P 2300 1500
+F 0 "SW1" H 2300 1755 50  0000 C CNN
+F 1 "SW_RESET" H 2300 1664 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2300 1500 60  0001 C CNN
+F 3 "" H 2300 1500 60  0000 C CNN
+	1    2300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E4E307D
+P 2600 1500
+F 0 "#PWR0101" H 2600 1250 50  0001 C CNN
+F 1 "GND" H 2605 1327 50  0000 C CNN
+F 2 "" H 2600 1500 50  0001 C CNN
+F 3 "" H 2600 1500 50  0001 C CNN
+	1    2600 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2000 1500 0    50   Input ~ 0
+RESET
+Text GLabel 3950 4200 2    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR0102
+U 1 1 5E4E43E0
+P 3950 4100
+F 0 "#PWR0102" H 3950 3850 50  0001 C CNN
+F 1 "GND" V 3955 3972 50  0000 R CNN
+F 2 "" H 3950 4100 50  0001 C CNN
+F 3 "" H 3950 4100 50  0001 C CNN
+	1    3950 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E4E4CFB
+P 2550 4200
+F 0 "#PWR0103" H 2550 3950 50  0001 C CNN
+F 1 "GND" V 2555 4072 50  0000 R CNN
+F 2 "" H 2550 4200 50  0001 C CNN
+F 3 "" H 2550 4200 50  0001 C CNN
+	1    2550 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E4E4FCF
+P 2550 4300
+F 0 "#PWR0104" H 2550 4050 50  0001 C CNN
+F 1 "GND" V 2555 4172 50  0000 R CNN
+F 2 "" H 2550 4300 50  0001 C CNN
+F 3 "" H 2550 4300 50  0001 C CNN
+	1    2550 4300
+	0    1    1    0   
+$EndComp
+NoConn ~ 3950 4000
+NoConn ~ 3950 4300
+$EndSCHEMATC
