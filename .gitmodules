@@ -13,3 +13,6 @@
 [submodule "pcb/modules/kicad_lib_tmk"]
 	path = pcb/modules/kicad_lib_tmk
 	url = https://github.com/tmk/kicad_lib_tmk
+[submodule ".\\pcb\\modules\\logos.pretty"]
+	path = .\\pcb\\modules\\logos.pretty
+	url = https://github.com/Sho-Keebs/logos.pretty
