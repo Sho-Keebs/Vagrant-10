@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Vagrant-10"
-Date "2020-02-17"
-Rev "v0.1"
+Date "2020-02-19"
+Rev "v0.2"
 Comp "Sho-Keebs"
 Comment1 ""
 Comment2 ""
