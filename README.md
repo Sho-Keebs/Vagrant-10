@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/github/license/Sho-Keebs/Vagrant-10)](https://github.com/Sho-Keebs/Vagrant-10/blob/master/LICENSE)
 
+![Not the best soldering job](doc/vag.jpg)
+
 PCB for small, 10-key macropad. Compatible with **MX-style** and **Alps** switches.
 
 ## Layout
