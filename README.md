@@ -6,6 +6,10 @@
 
 PCB for small, 10-key macropad. Compatible with **MX-style** and **Alps** switches.
 
+## Firmware
+
+You can find precompiled firmware inside [pc-firmware](https://github.com/Sho-Keebs/Vagrant-10/blob/master/pc-firmware/) directory or compile it from [QMK](https://github.com/Sho-Keebs/qmk_firmware). It will be available to configure in [QMK Configurator](https://config.qmk.fm/#/) soon.
+
 ## Layout
 
 ![Layout](./doc/Vagrant-10.png)
@@ -13,3 +17,7 @@ PCB for small, 10-key macropad. Compatible with **MX-style** and **Alps** switch
 ## PCB
 
 ![PCB](./doc/White.png)
+
+## Build guide
+
+I suggest using [PyrooL's Aplpha build guide](https://github.com/PyrooL/Alpha) as those keyboards are built with the same components.
