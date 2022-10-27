@@ -8,7 +8,7 @@ PCB for small, 10-key macropad. Compatible with **MX-style** and **Alps** switch
 
 ## Firmware
 
-You can find precompiled firmware inside [pc-firmware](https://github.com/Sho-Keebs/Vagrant-10/blob/master/pc-firmware/) directory or compile it from [QMK](https://github.com/Sho-Keebs/qmk_firmware). It will be available to configure in [QMK Configurator](https://config.qmk.fm/#/) soon.
+You can find precompiled firmware inside [pc-firmware](https://github.com/Sho-Keebs/Vagrant-10/blob/master/pc-firmware/) directory or compile it from [QMK](https://github.com/qmk/qmk_firmware). It is available to configure in [QMK Configurator](https://config.qmk.fm/#/vagrant_10/LAYOUT)!
 
 ## Layout
 
